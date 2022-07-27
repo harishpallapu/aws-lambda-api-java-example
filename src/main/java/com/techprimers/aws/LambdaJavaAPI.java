@@ -16,7 +16,7 @@ public class LambdaJavaAPI implements RequestHandler<Object, GatewayResponse> {
         GatewayResponse response = new GatewayResponse(
                 message,
                 200,
-                Collections.singletonMap("X-Powered-By", "TechPrimers"),
+                Collections.singletonMap("X-Powered-By", "3i"),
                 false
         );
         return response;
